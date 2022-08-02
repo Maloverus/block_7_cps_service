@@ -1,0 +1,149 @@
+.swiper-title {
+  margin: 0 -16px 0 -16px;
+  padding: 16px 16px;
+  height: 80px;
+  background: var(--swiper-title);
+  border-top: var(--border) solid 1px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-brand {
+  position: relative;
+  margin-right: -16px;
+}
+
+.swiper-slide {
+  background: #F8F8F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-right: 16px;
+  flex-shrink: 1 !important;
+}
+
+.swiper-slide img {
+  display: block;
+  margin: 0 0 0 16px;
+}
+
+.list-main {
+  margin: 16px 0 0 0;
+}
+
+.swiper-brand__button {
+  display: flex;
+  min-width: 240px;
+  min-height: 72px;
+  background-color: #fff;
+  border: solid 1px #eaeaea;
+  border-radius: 6px;
+  cursor: pointer;
+  align-items: center;
+  margin: 16px 0 52px 0;
+  padding: 0 0 0 16px;
+}
+
+.circle {
+  position: relative;
+  border: solid 2px #FF3E79;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 40%;
+  right: 40%;
+  width: 7px;
+  height: 7px;
+  border-top: solid 2px #FF3E79;
+  border-right: solid 2px #FF3E79;
+  transform: rotate(45deg);
+}
+
+
+.swiper-pagination-bullet-active {
+  background-color: #B5B6BC!important;
+}
+
+.swiper-repair {
+  position: relative;
+  margin-right: -16px;
+}
+
+.swiper-repair__button {
+  position: relative;
+  display: flex;
+  min-width: 240px;
+  min-height: 160px;
+  background-color: #fff;
+  border: solid 1px #eaeaea;
+  border-radius: 6px;
+  cursor: pointer;
+  align-items: center;
+  margin: 16px 16px 52px 0;
+}
+
+.swiper-repair__circle {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.swiper-repair__button h2 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.swiper-price {
+  position: relative;
+  margin: 0 -16px 44px -8px;
+}
+
+
+.slide-service {
+  position: relative;
+  min-width: 260px;
+  min-height: 200px;
+  background-color: var(--white);
+  border: solid 1px #eaeaea;
+  border-radius: 6px;
+  cursor: pointer;
+  align-items: center;
+  box-sizing: content-box;
+  margin: 16px 0 44px 0;
+}
+
+.slide-service h6 {
+  margin: 16px 0 0 16px;
+  color: var(--gray);
+  font-size: 14px;
+}
+
+.slide-service p {
+  margin: 0 0 0 16px;
+  font-size: 14px;
+}
+
+.slide-service p:last-child {
+margin-bottom: 20px;
+}
+
+.swiper-price__button-order img {
+  position: absolute;
+  margin: 0;
+  bottom: 16px;
+  right: 16px;
+}

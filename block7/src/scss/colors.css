@@ -1,0 +1,9 @@
+:root {
+  --border: #d9fff5;
+  --btn-border: #b8ffec;
+  --gray: #7e7e82;
+  --main-color: #f8f8f8;
+  --white: #ffffff;
+  --popup-menu-text: #1b1c21;
+  --swiper-title: linear-gradient(to right, #f8f8f8, #ffffff);
+}

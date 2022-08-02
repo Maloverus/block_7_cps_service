@@ -1,0 +1,75 @@
+.services {
+}
+
+.service__title {
+  font-family: "TT Lakes Bold";
+  margin-top: 111px;
+  font-size: 28px;
+  letter-spacing: -0.6px;
+}
+
+.service__title::before {
+  content: url("../img/services/highlight.svg");
+  position: absolute;
+  margin-left: -16px;
+  height: 32px;
+}
+
+.service__menu {
+  margin: 24px 0;
+  min-height: 100%;
+}
+
+.service__menu-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-right: -16px;
+  align-items: center;
+}
+
+.service__menu-list::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.menu-list__btn {
+  letter-spacing: -0.2px;
+  font-size: 16px;
+  color: var(--gray);
+  padding: 8px 16.54px;
+}
+
+.active {
+  border: var(--btn-border) solid 2px;
+  border-radius: 6px;
+  margin-right: 2px;
+  padding: 8px 16.54px;
+  color: var(--gray);
+}
+
+.about-us {
+  height: 94px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+/*.about-us p:last-child {*/
+/*  display: none;*/
+/*}*/
+
+.show-hide {
+  font-family: "TT Lakes Medium";
+  margin: 16px 0 16px 32px;
+  letter-spacing: -0.2px;
+}
+
+.show-hide::before {
+  content: url("../img/services/arrow_down.svg");
+  position: absolute;
+  margin-left: -24px;
+}
+
+.logo {
+  margin: 0 -16px;
+}

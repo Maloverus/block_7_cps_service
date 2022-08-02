@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-top: var(--border) solid 1px;
+  height: 147px;
+}
+
+.footer__content {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--gray);
+}
